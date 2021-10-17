@@ -1,0 +1,30 @@
+{
+  "name": "templates",
+  "version": "1.0.0",
+  "description": "Basic templates to quickly start projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./html",
+    "start:pug": "pug ./pug && http-server ./pug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaconv/templates.git"
+  },
+  "keywords": [
+    "templates",
+    "html",
+    "sass",
+    "pug"
+  ],
+  "author": "Alejandro Chacon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaconv/templates/issues"
+  },
+  "homepage": "https://github.com/chaconv/templates#readme",
+  "dependencies": {
+    "pug": "^3.0.2"
+  }
+}

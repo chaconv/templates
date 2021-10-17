@@ -1,0 +1,23 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #414141;
+    position: center center;
+    box-sizing: border-box;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    width: 50vw;
+    color: #48c4b9;
+    font-size: 2rem; 
+    line-height: 8rem;
+}
+
+.container h1:hover {
+    text-decoration: underline;
+}
